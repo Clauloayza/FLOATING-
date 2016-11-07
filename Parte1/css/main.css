@@ -4,7 +4,6 @@ div {
     
 }
 .Parte1 {
-    position: absolute;
     width: 800px;
     border: 2px solid #b7b7b7;
     height: 450px;
@@ -12,13 +11,13 @@ div {
 }
 div .uno {
     background-color: yellow;
-    position: relative;
+    
 }
 div .dos {
     background-color: dodgerblue;
-    position: relative;
+    
 }
 div .tres {
     background-color: #ff7171;
-    position: relative;
+    
 }

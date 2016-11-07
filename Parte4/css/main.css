@@ -1,31 +1,33 @@
+
 div {
     width: 200px;
     height: 150px;
     float: left;
     }
 
+
 .Parte1 {
-    position: absolute;
     width: 800px;
     border: 2px solid #b7b7b7;
-    height: 150px;
     background-color: white;
-   
-    
-  }
+    }
 
 div .uno {
     background-color: yellow;
-    position: relative;
-    overflow: auto;
+    
+    
 }
 div .dos {
     background-color: dodgerblue;
-    position: relative;
-    overflow: auto;
+    
+    
 }
 div .tres {
     background-color: #ff7171;
-    position: relative;
-    overflow: auto;
-}
+    }
+
+.Parte1: after{
+    display: block;
+    clear: both;
+    content: " ";
+   }
